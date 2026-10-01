@@ -1,0 +1,11 @@
+import type { CallState } from '../IClientMediaCall';
+import type { IClientMediaCallLocalParticipant } from '../IClientMediaCallParticipant';
+export interface ITempMediaCallData {
+    readonly confirmed: false;
+    readonly hidden: boolean;
+    readonly tempCallId: string;
+    readonly state: CallState;
+    readonly title: string;
+    readonly localParticipant: IClientMediaCallLocalParticipant;
+}
+//# sourceMappingURL=ITempMediaCallData.d.ts.map
